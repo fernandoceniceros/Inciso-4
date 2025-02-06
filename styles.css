@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1f5d3b;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del carrusel */
+.carousel {
+    overflow: hidden;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+}
+
+/* Contenedor de imágenes */
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Imágenes del carrusel */
+.carousel-images img {
+    width: 100%;
+    display: block;
+}
+
+/* Botones de navegación */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+/* Fernando Ceniceros */ 
+/* 05/02/25 */ 
+/* Diseño Web */ 
+/* Universidad Autónoma de Durango*/ 
